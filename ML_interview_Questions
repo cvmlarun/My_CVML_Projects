@@ -1,0 +1,27 @@
+Neural Network: I was thorouhly prepared with NN and hence could answer all the questions
+
+1. Is random weight assignment better than assigning same weights to the units in the hidden layer.
+2, Why is gradient checking important. (It tested my concepts on backpropagation).
+3. What is the loss function in a NN.
+4. How can you plot ROC curves for multiple classes. - There is something called as a macro-averaging of weights where PRE = (PRE1 + PRE2 + --- + PREk )/K
+
+5. There is a neuron in the hidden layer that always has a large error found in back propagation. What can be the reason: - I said either the weight transfer from the input layer to the hidden layer for that neuron is to be blamed or the activation function for the neuron should be changed.
+
+SVM and Log Regression (Log R):
+
+1. Difference between SVM and Log R - Easy
+2. What does LogR give ? I said Posterior probability (P(y|x=0 or x=1)) - easy
+3. Does SVM give any probabilistic output - I said no it doesn't and it was wrong! He gave me hints but I couldn't figure it out!
+4. What are the support vectors in SVM - Easy
+5. Evaluation of LogR - not too difficult
+
+So far, the interview was going pretty good
+
+Estimation-Maximization: (I was grilled in this section!)
+
+1. How's EM done? - Easy
+2. How are the params updated - I was able to answer with formulae!
+2. When doing an EM for GMM, how do you find the mixture weights ? I replied that for 2 Gaussians, the prior or the mixture weight can be assumed to be a Bernouli distribution.
+3. If x ~ N(0,1), what does 2x follow -
+4. How would you sample for a GMM -
+5. How to sample from a Normal Distribution with known mean and variance - I said Box-Meuller method - wrong! I had no clue about this!  
